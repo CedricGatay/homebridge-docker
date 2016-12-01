@@ -35,19 +35,18 @@ RUN apt-get update && \
 ##################################################
 
 RUN npm install -g homebridge \
-    homebridge-philipshue \
-    homebridge-ninjablock-temperature \
-    homebridge-ninjablock-humidity \
-    homebridge-ninjablock-alarmstatedevice \
-    homebridge-luxtronik2 \
     homebridge-people \
     homebridge-mqttswitch \
     homebridge-edomoticz \
     homebridge-philipshue \
-    homebridge-liftmaster \
     homebridge-ifttt \
     homebridge-nest \
-    homebridge-wink --unsafe-perm
+    homebridge-server \
+    homebridge-amazondash \
+    homebridge-netatmo \
+    homebridge-synology \
+    homebridge-harmonyhub \
+    --unsafe-perm
 
 ##################################################
 # Start                                          #
