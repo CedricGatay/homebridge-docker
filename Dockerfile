@@ -28,7 +28,8 @@ RUN apt-get update && \
     libkrb5-dev \
     vim \
     net-tools \
-    nano
+    nano \
+    libpcap-dev
 
 ##################################################
 # Install homebridge                             #
