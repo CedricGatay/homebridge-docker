@@ -29,7 +29,8 @@ RUN apt-get update && \
     vim \
     net-tools \
     nano \
-    libpcap-dev
+    libpcap-dev \
+    ffmpeg
 
 ##################################################
 # Install homebridge                             #
@@ -47,6 +48,7 @@ RUN npm install -g homebridge \
     homebridge-netatmo \
     homebridge-synology \
     homebridge-harmonyhub \
+    homebridge-camera-ffmpeg \
     --unsafe-perm
 
 ##################################################
