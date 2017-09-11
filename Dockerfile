@@ -39,7 +39,6 @@ RUN apt-get update && \
 RUN npm install -g homebridge \
     homebridge-people \
     homebridge-mqttswitch \
-    homebridge-edomoticz \
     homebridge-philipshue \
     homebridge-ifttt \
     homebridge-nest \
@@ -49,6 +48,7 @@ RUN npm install -g homebridge \
     homebridge-synology \
     homebridge-harmonyhub \
     homebridge-camera-ffmpeg \
+    homebridge-homeassistant \
     --unsafe-perm
 
 ##################################################
